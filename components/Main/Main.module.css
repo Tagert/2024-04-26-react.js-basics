@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  min-height: 50vh;
+  padding: 2rem 4rem 2rem 4rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: aliceblue;
+}

@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container h1 {
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  color: aliceblue;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navList a {
+  font-weight: 200;
+}
+
+.navList a:last-child {
+  font-weight: 400;
+  border-radius: 0.4rem;
+  padding: 1.2rem;
+  background-color: rgb(167, 166, 166);
+}
